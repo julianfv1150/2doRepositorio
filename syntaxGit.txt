@@ -1,6 +1,3 @@
-token: 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
-
-
 La URL del repo se usa para conectarse, 
 en este caso será: https://github.com/julianfv1150/2doRepositorio.git
 
