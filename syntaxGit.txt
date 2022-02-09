@@ -41,3 +41,7 @@ permite revincular los nuevos repositorios,
 al hacer pull o push da errores de merge. Se 
 puede solucionar usando el argumento: 
 --allow-unrelated-histories.
+
+
+git clone URL (Este comando clona todo el remoto
+		indicado en la URL)
