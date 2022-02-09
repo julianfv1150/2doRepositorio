@@ -1,4 +1,4 @@
-token: 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
+token: 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
 
 
 La URL del repo se usa para conectarse, 
@@ -12,6 +12,10 @@ git config user.password
 
 git status (marca en rojo los archivos con
 		cambios)
+
+git add . (Ponerle el punto agrega todos los archivos
+		sino podemos utilizar los nombres
+		de los que queremos subir)
 
 git commit -m (preparar para subir archivos
 		con un comentario)
@@ -45,3 +49,31 @@ puede solucionar usando el argumento:
 
 git clone URL (Este comando clona todo el remoto
 		indicado en la URL)
+
+
+git branch (Nos dice en que rama estoy parado
+		actualmente con color)
+
+git branch nombre (Crear una nueva rama)
+
+git branch -m nombre nuevo nombre (Cambiar nombre 
+		de rama)
+
+git checkout nombre-rama (Nos cambia a la rama que
+		queremos)
+
+git branch -d nombre (Borra la rama que le digamos)
+
+clear (limpia la terminal)
+
+touch "nombre.txt" (Crea archivos desde la consola)
+
+git dif rama1 rama2 (Sirve para comparar dos ramas,
+		la rama que nombremos primero en la
+		syntax es relevante para comparar)
+
+git merge ramaOrigen ramaDestino (Ej: rama1 hacia master
+		
+
+
+
