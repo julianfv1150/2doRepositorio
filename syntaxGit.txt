@@ -1,0 +1,43 @@
+token: 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
+
+
+La URL del repo se usa para conectarse, 
+en este caso será: https://github.com/julianfv1150/2doRepositorio.git
+
+git init: inicializa la carpeta
+
+git config user.name ""
+git config email.name ""
+git config user.password 
+
+git status (marca en rojo los archivos con
+		cambios)
+
+git commit -m (preparar para subir archivos
+		con un comentario)
+
+git remote add origin URL (Este agrega una
+		dirección remota a traves del
+		URL y lo nombre como ORIGIN)
+
+git remote remove origin (Este birra una 
+		dirección remota ya vinculada)
+
+git push -u origin main/master (envia al remoto
+		los cambios listos para actualizar
+		a veces funciona con master, a veces
+		con main)
+
+git pull origin main (descarga todos los cambios del
+		remoto)
+
+git pull origin main --allow-unrelated-histories(leer
+		la aclaración de abajo)
+
+*Datos curiosos de GIT, cuando borramos 
+archivos como la carpeta.git suele generar un
+ error de confirmaciones y etiquetas que no 
+permite revincular los nuevos repositorios, 
+al hacer pull o push da errores de merge. Se 
+puede solucionar usando el argumento: 
+--allow-unrelated-histories.
